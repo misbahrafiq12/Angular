@@ -1,0 +1,13 @@
+<div class="container" id="loginContainer">
+ <h1>Login</h1>
+    <form  [formGroup] = 'loginForm'>
+        <input type="text" id="loginUsername" placeholder="Username" [formControl] = "email">
+        <h1 [hidden] = "email.valid || email.untouched">Please enter email</h1>
+        <br>
+        <input type="password" id="loginPassword" placeholder="Password" [formControl] = "password">
+        <br>
+       <button class="login btn" [disabled] =  'loginForm.invalid' (click) = login()>Login</button>
+       <button  class="reset btn" (click) = reset()>Reset</button>
+    </form>
+    
+</div>

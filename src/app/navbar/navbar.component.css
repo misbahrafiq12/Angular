@@ -1,0 +1,50 @@
+/* Container styles */
+nav {
+    background-color: #333; 
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  
+  nav h1 a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 24px;
+  }
+  
+  nav h1 a:hover {
+    text-decoration: underline; 
+  }
+  
+  /* List styles */
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  /* List item styles */
+  nav ul li {
+    display: inline;
+    margin-right: 30px;
+   
+  }
+  
+  /* Link styles */
+  nav ul li a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline; 
+  }
+  
+  /* Active link styles */
+  nav ul li a.active {
+    font-weight: bold; 
+  }
+  
